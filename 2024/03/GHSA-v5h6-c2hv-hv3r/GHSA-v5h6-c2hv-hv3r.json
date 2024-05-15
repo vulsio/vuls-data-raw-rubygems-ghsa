@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.4.0",
 	"id": "GHSA-v5h6-c2hv-hv3r",
-	"modified": "2024-03-25T19:36:52Z",
+	"modified": "2024-05-14T18:14:34Z",
 	"published": "2024-03-25T19:36:52Z",
 	"aliases": [
 		"CVE-2024-27280"
@@ -31,6 +31,10 @@
 	],
 	"references": [
 		{
+			"type": "ADVISORY",
+			"url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27280"
+		},
+		{
 			"type": "WEB",
 			"url": "https://github.com/ruby/stringio/commit/0e596524097706263d10900ca180898e4a8f5233"
 		},
@@ -57,7 +61,7 @@
 		],
 		"github_reviewed": true,
 		"github_reviewed_at": "2024-03-25T19:36:52Z",
-		"nvd_published_at": null,
+		"nvd_published_at": "2024-05-14T15:11:56Z",
 		"severity": "HIGH"
 	}
 }
