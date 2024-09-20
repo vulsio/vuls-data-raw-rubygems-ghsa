@@ -1,7 +1,7 @@
 {
 	"schema_version": "1.4.0",
 	"id": "GHSA-cvp8-5r8g-fhvq",
-	"modified": "2024-09-16T15:29:12Z",
+	"modified": "2024-09-19T18:25:42Z",
 	"published": "2024-09-11T21:08:26Z",
 	"summary": "omniauth-saml vulnerable to Improper Verification of Cryptographic Signature",
 	"details": "ruby-saml, the dependent SAML gem of omniauth-saml has a signature wrapping vulnerability in <= v1.12.0 and v1.13.0 to v1.16.0 , see https://github.com/SAML-Toolkits/ruby-saml/security/advisories/GHSA-jw9c-mfg7-9rx2 \nAs a result, omniauth-saml created a [new release](https://github.com/omniauth/omniauth-saml/releases) by upgrading ruby-saml to the patched versions v1.17. \n",
@@ -26,10 +26,48 @@
 					"type": "ECOSYSTEM",
 					"events": [
 						{
+							"introduced": "2.0.0"
+						},
+						{
+							"fixed": "2.1.2"
+						}
+					]
+				}
+			]
+		},
+		{
+			"package": {
+				"ecosystem": "RubyGems",
+				"name": "omniauth-saml"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
 							"introduced": "0"
 						},
 						{
-							"fixed": "2.1.1"
+							"fixed": "1.10.5"
+						}
+					]
+				}
+			]
+		},
+		{
+			"package": {
+				"ecosystem": "RubyGems",
+				"name": "omniauth-saml"
+			},
+			"ranges": [
+				{
+					"type": "ECOSYSTEM",
+					"events": [
+						{
+							"introduced": "2.2.0"
+						},
+						{
+							"fixed": "2.2.1"
 						}
 					]
 				}
